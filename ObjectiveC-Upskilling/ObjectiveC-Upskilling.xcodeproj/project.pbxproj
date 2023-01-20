@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE5C8A1A297AB4E5003D1846 /* ObjectiveC_UpskillingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5C8A19297AB4E5003D1846 /* ObjectiveC_UpskillingApp.swift */; };
+		AE5C8A1C297AB4E5003D1846 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5C8A1B297AB4E5003D1846 /* ContentView.swift */; };
+		AE5C8A1E297AB4E6003D1846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5C8A1D297AB4E6003D1846 /* Assets.xcassets */; };
+		AE5C8A21297AB4E6003D1846 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5C8A20297AB4E6003D1846 /* Preview Assets.xcassets */; };
+		AE5C8A2B297AB4E7003D1846 /* ObjectiveC_UpskillingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5C8A2A297AB4E7003D1846 /* ObjectiveC_UpskillingTests.swift */; };
+		AE5C8A35297AB4E7003D1846 /* ObjectiveC_UpskillingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5C8A34297AB4E7003D1846 /* ObjectiveC_UpskillingUITests.swift */; };
+		AE5C8A37297AB4E7003D1846 /* ObjectiveC_UpskillingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5C8A36297AB4E7003D1846 /* ObjectiveC_UpskillingUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE5C8A27297AB4E6003D1846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE5C8A0E297AB4E5003D1846 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE5C8A15297AB4E5003D1846;
+			remoteInfo = "ObjectiveC-Upskilling";
+		};
+		AE5C8A31297AB4E7003D1846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE5C8A0E297AB4E5003D1846 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE5C8A15297AB4E5003D1846;
+			remoteInfo = "ObjectiveC-Upskilling";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE5C8A16297AB4E5003D1846 /* ObjectiveC-Upskilling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ObjectiveC-Upskilling.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE5C8A19297AB4E5003D1846 /* ObjectiveC_UpskillingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectiveC_UpskillingApp.swift; sourceTree = "<group>"; };
+		AE5C8A1B297AB4E5003D1846 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AE5C8A1D297AB4E6003D1846 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE5C8A20297AB4E6003D1846 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AE5C8A26297AB4E6003D1846 /* ObjectiveC-UpskillingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ObjectiveC-UpskillingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE5C8A2A297AB4E7003D1846 /* ObjectiveC_UpskillingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectiveC_UpskillingTests.swift; sourceTree = "<group>"; };
+		AE5C8A30297AB4E7003D1846 /* ObjectiveC-UpskillingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ObjectiveC-UpskillingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE5C8A34297AB4E7003D1846 /* ObjectiveC_UpskillingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectiveC_UpskillingUITests.swift; sourceTree = "<group>"; };
+		AE5C8A36297AB4E7003D1846 /* ObjectiveC_UpskillingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectiveC_UpskillingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE5C8A13297AB4E5003D1846 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE5C8A23297AB4E6003D1846 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE5C8A2D297AB4E7003D1846 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE5C8A0D297AB4E5003D1846 = {
+			isa = PBXGroup;
+			children = (
+				AE5C8A18297AB4E5003D1846 /* ObjectiveC-Upskilling */,
+				AE5C8A29297AB4E6003D1846 /* ObjectiveC-UpskillingTests */,
+				AE5C8A33297AB4E7003D1846 /* ObjectiveC-UpskillingUITests */,
+				AE5C8A17297AB4E5003D1846 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE5C8A17297AB4E5003D1846 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE5C8A16297AB4E5003D1846 /* ObjectiveC-Upskilling.app */,
+				AE5C8A26297AB4E6003D1846 /* ObjectiveC-UpskillingTests.xctest */,
+				AE5C8A30297AB4E7003D1846 /* ObjectiveC-UpskillingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE5C8A18297AB4E5003D1846 /* ObjectiveC-Upskilling */ = {
+			isa = PBXGroup;
+			children = (
+				AE5C8A19297AB4E5003D1846 /* ObjectiveC_UpskillingApp.swift */,
+				AE5C8A1B297AB4E5003D1846 /* ContentView.swift */,
+				AE5C8A1D297AB4E6003D1846 /* Assets.xcassets */,
+				AE5C8A1F297AB4E6003D1846 /* Preview Content */,
+			);
+			path = "ObjectiveC-Upskilling";
+			sourceTree = "<group>";
+		};
+		AE5C8A1F297AB4E6003D1846 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AE5C8A20297AB4E6003D1846 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AE5C8A29297AB4E6003D1846 /* ObjectiveC-UpskillingTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE5C8A2A297AB4E7003D1846 /* ObjectiveC_UpskillingTests.swift */,
+			);
+			path = "ObjectiveC-UpskillingTests";
+			sourceTree = "<group>";
+		};
+		AE5C8A33297AB4E7003D1846 /* ObjectiveC-UpskillingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE5C8A34297AB4E7003D1846 /* ObjectiveC_UpskillingUITests.swift */,
+				AE5C8A36297AB4E7003D1846 /* ObjectiveC_UpskillingUITestsLaunchTests.swift */,
+			);
+			path = "ObjectiveC-UpskillingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE5C8A15297AB4E5003D1846 /* ObjectiveC-Upskilling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE5C8A3A297AB4E7003D1846 /* Build configuration list for PBXNativeTarget "ObjectiveC-Upskilling" */;
+			buildPhases = (
+				AE5C8A12297AB4E5003D1846 /* Sources */,
+				AE5C8A13297AB4E5003D1846 /* Frameworks */,
+				AE5C8A14297AB4E5003D1846 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ObjectiveC-Upskilling";
+			productName = "ObjectiveC-Upskilling";
+			productReference = AE5C8A16297AB4E5003D1846 /* ObjectiveC-Upskilling.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE5C8A25297AB4E6003D1846 /* ObjectiveC-UpskillingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE5C8A3D297AB4E7003D1846 /* Build configuration list for PBXNativeTarget "ObjectiveC-UpskillingTests" */;
+			buildPhases = (
+				AE5C8A22297AB4E6003D1846 /* Sources */,
+				AE5C8A23297AB4E6003D1846 /* Frameworks */,
+				AE5C8A24297AB4E6003D1846 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE5C8A28297AB4E6003D1846 /* PBXTargetDependency */,
+			);
+			name = "ObjectiveC-UpskillingTests";
+			productName = "ObjectiveC-UpskillingTests";
+			productReference = AE5C8A26297AB4E6003D1846 /* ObjectiveC-UpskillingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE5C8A2F297AB4E7003D1846 /* ObjectiveC-UpskillingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE5C8A40297AB4E7003D1846 /* Build configuration list for PBXNativeTarget "ObjectiveC-UpskillingUITests" */;
+			buildPhases = (
+				AE5C8A2C297AB4E7003D1846 /* Sources */,
+				AE5C8A2D297AB4E7003D1846 /* Frameworks */,
+				AE5C8A2E297AB4E7003D1846 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE5C8A32297AB4E7003D1846 /* PBXTargetDependency */,
+			);
+			name = "ObjectiveC-UpskillingUITests";
+			productName = "ObjectiveC-UpskillingUITests";
+			productReference = AE5C8A30297AB4E7003D1846 /* ObjectiveC-UpskillingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE5C8A0E297AB4E5003D1846 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					AE5C8A15297AB4E5003D1846 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					AE5C8A25297AB4E6003D1846 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = AE5C8A15297AB4E5003D1846;
+					};
+					AE5C8A2F297AB4E7003D1846 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = AE5C8A15297AB4E5003D1846;
+					};
+				};
+			};
+			buildConfigurationList = AE5C8A11297AB4E5003D1846 /* Build configuration list for PBXProject "ObjectiveC-Upskilling" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE5C8A0D297AB4E5003D1846;
+			productRefGroup = AE5C8A17297AB4E5003D1846 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE5C8A15297AB4E5003D1846 /* ObjectiveC-Upskilling */,
+				AE5C8A25297AB4E6003D1846 /* ObjectiveC-UpskillingTests */,
+				AE5C8A2F297AB4E7003D1846 /* ObjectiveC-UpskillingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE5C8A14297AB4E5003D1846 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE5C8A21297AB4E6003D1846 /* Preview Assets.xcassets in Resources */,
+				AE5C8A1E297AB4E6003D1846 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE5C8A24297AB4E6003D1846 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE5C8A2E297AB4E7003D1846 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE5C8A12297AB4E5003D1846 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE5C8A1C297AB4E5003D1846 /* ContentView.swift in Sources */,
+				AE5C8A1A297AB4E5003D1846 /* ObjectiveC_UpskillingApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE5C8A22297AB4E6003D1846 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE5C8A2B297AB4E7003D1846 /* ObjectiveC_UpskillingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE5C8A2C297AB4E7003D1846 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE5C8A37297AB4E7003D1846 /* ObjectiveC_UpskillingUITestsLaunchTests.swift in Sources */,
+				AE5C8A35297AB4E7003D1846 /* ObjectiveC_UpskillingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE5C8A28297AB4E6003D1846 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE5C8A15297AB4E5003D1846 /* ObjectiveC-Upskilling */;
+			targetProxy = AE5C8A27297AB4E6003D1846 /* PBXContainerItemProxy */;
+		};
+		AE5C8A32297AB4E7003D1846 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE5C8A15297AB4E5003D1846 /* ObjectiveC-Upskilling */;
+			targetProxy = AE5C8A31297AB4E7003D1846 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AE5C8A38297AB4E7003D1846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE5C8A39297AB4E7003D1846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE5C8A3B297AB4E7003D1846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ObjectiveC-Upskilling/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hamzahkhan.ObjectiveC-Upskilling";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE5C8A3C297AB4E7003D1846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ObjectiveC-Upskilling/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hamzahkhan.ObjectiveC-Upskilling";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AE5C8A3E297AB4E7003D1846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hamzahkhan.ObjectiveC-UpskillingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjectiveC-Upskilling.app/ObjectiveC-Upskilling";
+			};
+			name = Debug;
+		};
+		AE5C8A3F297AB4E7003D1846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hamzahkhan.ObjectiveC-UpskillingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjectiveC-Upskilling.app/ObjectiveC-Upskilling";
+			};
+			name = Release;
+		};
+		AE5C8A41297AB4E7003D1846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hamzahkhan.ObjectiveC-UpskillingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ObjectiveC-Upskilling";
+			};
+			name = Debug;
+		};
+		AE5C8A42297AB4E7003D1846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hamzahkhan.ObjectiveC-UpskillingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ObjectiveC-Upskilling";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE5C8A11297AB4E5003D1846 /* Build configuration list for PBXProject "ObjectiveC-Upskilling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE5C8A38297AB4E7003D1846 /* Debug */,
+				AE5C8A39297AB4E7003D1846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE5C8A3A297AB4E7003D1846 /* Build configuration list for PBXNativeTarget "ObjectiveC-Upskilling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE5C8A3B297AB4E7003D1846 /* Debug */,
+				AE5C8A3C297AB4E7003D1846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE5C8A3D297AB4E7003D1846 /* Build configuration list for PBXNativeTarget "ObjectiveC-UpskillingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE5C8A3E297AB4E7003D1846 /* Debug */,
+				AE5C8A3F297AB4E7003D1846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE5C8A40297AB4E7003D1846 /* Build configuration list for PBXNativeTarget "ObjectiveC-UpskillingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE5C8A41297AB4E7003D1846 /* Debug */,
+				AE5C8A42297AB4E7003D1846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE5C8A0E297AB4E5003D1846 /* Project object */;
+}
